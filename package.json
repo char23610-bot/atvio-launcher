@@ -1,0 +1,1 @@
+{"name":"atvio-launcher","version":"1.0.0","private":true,"scripts":{"test":"node tests/run.cjs","serve":"python3 scripts/serve.py","package":"python3 scripts/package.py"},"devDependencies":{"acorn":"8.15.0","playwright":"1.56.1"}}
