@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #10151c; color: #edf2f7; font: 24px Arial, sans-serif; }
+.shell { width: 90%; max-width: 1700px; margin: 0 auto; padding: 35px 0; }
+header { border-bottom: 1px solid #303945; padding-bottom: 24px; margin-bottom: 40px; }
+.brand { font-size: 26px; letter-spacing: 4px; font-weight: bold; }
+.brand b { color: #71e4bc; font-size: 15px; letter-spacing: 3px; }
+#clock { float: right; color: #aab6c5; }
+.eyebrow { color: #71e4bc; letter-spacing: 3px; font-size: 14px; }
+h1 { font-size: 46px; margin: 12px 0; } h2 { font-size: 24px; margin-top: 36px; }
+.muted { color: #aab6c5; } .small { font-size: 17px; line-height: 1.5; }
+nav { margin: 30px 0; }
+button, a { display: inline-block; background: #202b38; color: #edf2f7; border: 3px solid transparent; border-radius: 8px; padding: 13px 18px; font: inherit; font-size: 20px; text-decoration: none; margin: 4px 8px 4px 0; cursor: pointer; }
+button:focus, a:focus, textarea:focus { border-color: #71e4bc; outline: 2px solid #71e4bc; background-color: #294338; }
+.tiles { font-size: 0; margin-left: -1%; }
+.tile { display: inline-block; width: 23%; margin: 1%; min-height: 170px; vertical-align: top; padding: 22px; background: #1b2633; }
+.tile .symbol { display: block; font-size: 34px; color: #71e4bc; margin-bottom: 20px; }
+.tile strong { display: block; font-size: 24px; } .tile small { display: block; font-size: 15px; color: #aab6c5; margin-top: 9px; }
+.native span { display: inline-block; padding: 18px 26px; border: 1px solid #38414e; color: #aab6c5; margin: 0 12px 12px 0; border-radius: 8px; font-size: 20px; }
+footer { border-top: 1px solid #303945; margin-top: 30px; padding-top: 20px; color: #aab6c5; font-size: 17px; }
+#status { display: block; color: #71e4bc; padding: 12px 0; min-height: 22px; }
+label { display: block; margin: 26px 0 12px; }
+textarea { width: 100%; background: #17212d; color: #edf2f7; padding: 15px; border: 3px solid #38414e; font: 17px monospace; }
+pre { background: #17212d; padding: 20px; white-space: pre-wrap; word-wrap: break-word; font: 18px/1.6 monospace; }
+@media (max-width: 900px) { body { font-size: 20px; } .shell { padding-top: 22px; } h1 { font-size: 34px; } .tile { width: 48%; min-height: 140px; } header { margin-bottom: 24px; } }
